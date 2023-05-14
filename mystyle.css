@@ -1,1 +1,68 @@
 
+/* Control the left side */
+.left {
+  padding-top: 0px;
+  height: 505px;
+  float:left;
+  width: 60%;
+  left: 0;
+  background-color: #aaaaa0;
+}
+
+/* Control the right side */
+.right {
+  padding-top: 0px;
+  height: 100%;
+  float:right;
+  width: 40%;
+  right: 0;
+  background-color: #aaaaa0;
+  overflow-y: hidden;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+ color: white;
+ text-align:center;
+ padding-top: 0px;
+}
+.button {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0b903c;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(2px);
+}
+img {
+  width: 100%;
+  height: 500px;
+}
+.box {
+  float: left;
+  width: 30.33%;
+  padding: 0px;
+}
+.lala{
+animation-name: example;
+animation-duration: 5s
+}
+@keyframes example {
+  100%   { left:5px; top:8px;}
+  0%  { left:27%; top:8px;}
+
+}
